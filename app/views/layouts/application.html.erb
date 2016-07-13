@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pet Store</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class="container">
+    <ul class="nav nav-pills">
+      <li role="presentation" class="active"><a href="/">Home</a></li>
+      <li role="presentation"><a href="/cats">Cats</a></li>
+      <li role="presentation"><a href="/dogs">Dogs</a></li>
+      <li role="presentation"><a href="/adoption">Adoption Center</a></li>
+    </ul>
+
+    <%= yield %>
+
+
+  </div>
+  <p></p>
+  <div></div>
+
+</body>
+</html>

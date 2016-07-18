@@ -8,13 +8,7 @@ Bootstrap - Two Parts
 + Several ways to incorporate custom styles into your sites
 
 
-
-1. Base Bootstrap plus custom theme (template on top)
-+ http://getbootstrap.com/customize/
-+ http://startbootstrap.com/template-categories/all/
-
-
-2. Customization of Base Bootstrap (one file)
+1. Customization of Base Bootstrap (one file)
 + https://bootswatch.com/
 
 $brand-primary: #53C1B8;
@@ -27,9 +21,13 @@ $brand-warning: #C61D83;
 
 Put SASS variables above @import "bootstrap"; and "bootstrap sprockets";
 
+2. Base Bootstrap plus custom theme (template on top)
++ http://getbootstrap.com/customize/
++ http://startbootstrap.com/template-categories/all/
+
+
 
 + Glyphicons
-
 
 
 + Components
